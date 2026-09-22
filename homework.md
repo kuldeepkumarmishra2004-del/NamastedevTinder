@@ -1,0 +1,10 @@
+ -Create a repository
+ -Initialize the Repository
+ -node_module ,package.json,package-lock.json
+ -create a server
+ -Listen to port7777
+ -write request handler for /test ,/hello
+ -install Nodemon and update script inside the package.json
+ -what are the dependencies
+ -what is the use of "-g"while npm Install
+ -Difference between caret and tilde(^ vs ~)
