@@ -8,3 +8,11 @@
  -what are the dependencies
  -what is the use of "-g"while npm Install
  -Difference between caret and tilde(^ vs ~)
+ 
+ -initialize git in repo
+ -gitignore
+ -create a remote on github
+ -push all code to remote origin
+ -play with routes and route extension ex. /hello, /, /hello/123 
+ -Install Postman app make a workspace/collection and make a test get API Call
+ -write logic to handle get,post,patch,put,Delete and test them on Post Man

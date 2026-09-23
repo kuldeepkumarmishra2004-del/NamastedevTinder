@@ -11,7 +11,7 @@
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "dev" : "nodemon src/app.js",
+    "dev" : "nodemon src/Episode04.js",
     "start" : "node src/app.js"
   },
   "dependencies": {

@@ -11,9 +11,6 @@ const app = express();
 //How to Handle the Diffent Request Differently
 // Using Route
 
-app.use("/",(req,res) =>{
-    res.send("Hello Namaste From the Dashboard Vs Code");
-});
 
 app.use("/test", (req,res) => {
   res.send("Namaste Node.js");
@@ -23,7 +20,9 @@ app.use("/hello", (req,res) => {
   res.send("Hello From the response handler/hello");
 });
 
-
+app.use("/",(req,res) =>{
+    res.send("Hello Namaste From the Dashboard Vs Code");
+});
 
 // Server is Listening on Port 3000
 app.listen(7777, () => {
